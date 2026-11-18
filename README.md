@@ -61,8 +61,9 @@ Intel Macs are not supported.
 <summary><b>Mac</b></summary>
 
 1. Open the `.dmg` and drag **Leafhold Library** into **Applications**.
-2. Open it from Applications. macOS says it cannot check the app: choose **Done**.
-3. Open **System Settings → Privacy & Security**, scroll down to **Security**, click **Open Anyway** next to Leafhold Library, and enter your password.
+2. Open it from Applications. macOS says it could not verify that the app is free of malware: choose **Done**.
+3. Open **System Settings → Privacy & Security** and scroll down to **Security**. It says *"Leafhold Library" was blocked to protect your Mac*: click **Open Anyway**.
+4. In the next window, click **Open Anyway** again, then enter your password or use Touch ID. The app opens.
 
 You only need to do this once.
 
@@ -72,7 +73,7 @@ You only need to do this once.
 <summary><b>Windows</b></summary>
 
 1. Run the `.exe`.
-2. If you see **Windows protected your PC**, click **More info**, then **Run anyway**.
+2. Windows says *Microsoft Defender SmartScreen prevented an unrecognized app from starting*. Click **More info**, then **Run anyway**. The publisher shows as "Unknown publisher": that is expected for this beta.
 
 </details>
 
